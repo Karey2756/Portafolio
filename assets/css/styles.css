@@ -1,0 +1,122 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+body {
+  background-color: #f0f9ec;
+}
+
+.imagen1 {
+  width: 30vw;
+  height: 30vw;
+}
+
+@media (max-width: 767px) {
+  .imagenPrincipal {
+    width: auto;
+    max-width: none;
+  }
+}
+.Encabezado1 {
+  color: #1d3557;
+}
+
+.Encabezado2 {
+  color: #88c3d9;
+}
+
+.Enunciado {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.Interruptor {
+  background-color: #1d3557;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.Interruptor:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .Interruptor {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+.alineacionContenidoDerecho {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.justify-content-center {
+  padding: auto;
+  margin: 20px;
+}
+
+.contact-info p {
+  margin-right: -5px;
+  color: #000;
+  margin-left: 800px;
+  margin-top: -12px;
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+  color: #000;
+}
+
+.container2 {
+  background-color: #f0f9ec;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.container2 h2 {
+  color: #0b3a53;
+}
+.container2 .form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+.container2 .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+.container2 .contact-info li {
+  font-size: 1rem;
+  color: #0b3a53;
+}
+.container2 .contact-info li i {
+  margin-right: 0.5rem;
+}
+
+.button {
+  background-color: #1d3557;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
